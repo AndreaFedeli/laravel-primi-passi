@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: gold;
+  background-color: skyblue;
 }
 
 .cards img {
@@ -20,11 +20,35 @@ header {
 header li {
   display: inline-block;
   padding: 0 15px;
+  color: blue;
 }
 
 header li a {
   text-decoration: none;
   color: #001942;
   font-weight: bold;
+}
+
+.rec {
+  width: 300px;
+  height: 300px;
+}
+
+li {
+  margin-left: 100px;
+  margin-top: 80px;
+  color: blue;
+}
+
+h2 {
+  color: blue;
+}
+
+.card h3 {
+  color: royalblue;
+}
+
+.card {
+  display: inline-grid;
 }
 
